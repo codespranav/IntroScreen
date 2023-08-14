@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    opacity: 0; /* Start with opacity 0 */
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .welcome-home {
+    height: 100vh;
+    background-color: #1a191c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .welcome-home img {
+    width: 40%;
+  }
